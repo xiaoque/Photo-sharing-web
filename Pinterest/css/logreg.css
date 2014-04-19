@@ -1,0 +1,202 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+html {
+	overflow-y:scroll;
+}
+
+li {
+	list-style:none;
+}
+
+a {
+	border:none;
+	text-decoration:none;
+	outline:none;
+}
+
+img {
+	border:none;
+}
+
+input, textarea {
+	outline:none;
+	color:#444444;
+	font-size:1.25em;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+body {
+	width:100%;
+	height:100%;
+	font-family:arial, sans-serif;
+	background:url(../image/bg.jpg) repeat;
+}
+
+#wrapper {
+	width:100%;
+	float:left;
+	height:100%;
+	margin:0 auto;
+	padding-bottom:100px;
+}
+
+#login {
+	width:800px;
+	height:100%;
+	padding:80px 0;
+	margin:0 auto;
+}
+
+#login .big_logo {
+	display:block;
+	margin: 0 auto;
+	width:300px;
+	height:auto;
+}
+
+#login .login_bar {
+	display:block;
+	margin: 0 auto;
+}
+
+#login_form {
+	width:400px;
+	margin:60px auto;
+}
+
+.logreg p {
+	display:block;
+	float:left;
+	height:auto;
+	margin:15px 0;
+	width:390px;
+}
+
+.logreg p b {
+	display:block;
+	float:left;
+	height:auto;
+	color:#222222;
+	font-size:1.50em;
+}
+
+.logreg .input_text {
+	width:240px;
+	height:30px;
+	float:right;
+	background:#FFFACD;
+	padding:0 5px;
+	border:#CCCCCC solid 1px;
+	border-radius:6px;
+	transition:all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+
+.logreg p .input_text:focus {
+	border:#CD2626 solid 1px;
+	box-shadow:0 0 5px rgba(238, 44, 44, 1);
+	-webkit-box-shadow:0 0 5px rgba(238, 44, 44, 1);
+	-moz-box-shadow:0 0 5px rgba(238, 44, 44, 1);
+}
+
+.logreg .submit_button {
+	width:80px;
+	height:35px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFF0;
+	border-radius:5px;
+	border:#AAAAAA solid 1px;
+	font-size:1.20em;
+	font-weight:bold;
+}
+
+.logreg .submit_button:hover {
+	background:#FFFFFF;
+}
+
+
+.logreg .to_other {
+	margin-top:10px;
+	color:#666666;
+	float:left;
+}
+
+.logreg .to_other:hover {
+	color:#B22222;
+	text-decoration:underline;
+}
+
+#register {
+	width:650px;
+	height:auto;
+	margin:0 auto;
+}
+
+#register .big_logo {
+	display:block;
+	width:350px;
+	margin:0 auto;
+	height:auto;
+}
+
+#register p {
+	width:640px;
+	height:auto;
+}
+
+#register_form {
+	width:640px;
+	margin:0 auto;
+	padding:20px 0;
+	border-top:#CCCCCC solid 1px;
+}
+
+#register_form .input_text {
+	width:350px;
+}
+
+#register_form .gender_area {
+	float:right;
+}
+
+#register_form p label {
+	display:block;
+	float:left;
+	margin-top:5px;
+	margin-left:50px;
+	font-size:1.30em;
+	color:#333333;
+}
+
+#register_form .input_file {
+	float:right;
+	width:350px;
+}
+
+#register_form textarea {
+	width:350px;
+	min-width:350px;
+	max-width:350px;
+	min-height:150px;
+	height:auto;
+}
+
+#register_form .submit_button {
+	width:100px;
+}

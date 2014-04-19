@@ -1,0 +1,121 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#profile_header {
+	float:left;
+	width:100%;
+	height:auto;
+	padding:25px 0;
+}
+
+#profile_header_field {
+	width:100%;
+	float:left;
+	margin:0 auto;
+	height:auto;
+	margin-bottom:30px;
+}
+
+#profile_header_field .profile_header_body {
+	width:1200px;
+	height:auto;
+	margin:0 auto;
+}
+
+#profile_header_field .user_info {
+	float:left;
+	width:1200px;
+	height:auto;
+	background:#FFFFFF;
+	border:#DDDDDD solid 1px;
+	box-shadow:0px 1px 1px rgba(0,0,0,0.3);
+}
+
+#profile_header_field .head_pic {
+	float:left;
+	width:200px;
+	height:auto;
+	min-height:150xp;
+	max-height:250px;
+}
+
+#profile_header_field .head_info {
+	float:left;
+	margin-left:20px;
+}
+
+#profile_header_field .head_info h3 {
+	font-size:2.10em;
+}
+
+#profile_header_field .head_info h5 {
+	margin-top:10px;
+}
+
+
+#already_follow_button {
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	border-radius:5px;
+	padding:3px 5px;
+	font-weight:bold;
+	background:#FF3030;
+	color:#FFFFFF;
+}
+
+#not_follow_button {
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	border-radius:5px;
+	padding:3px 5px;
+	font-weight:bold;
+	background:#66CD00;
+	color:#FFFFFF;
+}
+
+#page_menu {
+	float:left;
+	width:100%;
+	height:auto;
+	box-shadow:0px 1px 2px rgba(0,0,0,0.1);
+	border-top:#CCCCCC solid 1px;
+	border-bottom:#CCCCCC solid 1px;
+	background:#FFFAF0;
+}
+
+#page_menu .current_page {
+	background:#CFCFCF;
+}
+
+#page_menu .page_menu_body {
+	width:1200px;
+	height:auto;
+	margin:0 auto;
+}
+
+#page_menu .user_link {
+	float:left;
+}
+
+#page_menu .follow_link {
+	float:right;
+}
+
+#page_menu ul li {
+	float:left;
+}
+
+#page_menu ul li a {
+	display:block;
+	width:100px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:#333333;
+}
+
+#page_menu ul li a:hover {
+	background:#DDDDDD;
+}
