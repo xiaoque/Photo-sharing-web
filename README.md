@@ -1,3 +1,3 @@
-Copypinterest
+Photo sharing website
 =============
-A simple php website imitate the website Pinterest.com
+A simple php website sharing photos
